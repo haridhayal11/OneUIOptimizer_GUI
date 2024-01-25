@@ -1,0 +1,3 @@
+com.google.android.syncadapters.calendar
+com.google.android.syncadapters.contacts
+com.google.android.apps.restore

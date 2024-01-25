@@ -1,0 +1,16 @@
+com.android.chrome
+com.google.android.apps.docs
+com.google.android.apps.photos
+com.google.android.apps.tachyon
+com.google.android.apps.turbo
+com.google.android.apps.youtube.music
+com.google.android.as
+com.google.android.configupdater
+com.google.android.feedback
+com.google.android.gm
+com.google.android.googlequicksearchbox
+com.google.android.onetimeinitializer
+com.google.android.partnersetup
+com.google.android.projection.gearheads
+com.google.android.videos
+com.google.android.youtube

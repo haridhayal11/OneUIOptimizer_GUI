@@ -1,0 +1,5 @@
+com.samsung.android.scloud
+com.android.calllogbackup
+com.samsung.android.fmm
+com.samsung.android.samsungpass
+com.samsung.android.samsungpassautofill

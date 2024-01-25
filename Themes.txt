@@ -1,0 +1,2 @@
+com.samsung.android.themecenter
+com.samsung.android.themestore

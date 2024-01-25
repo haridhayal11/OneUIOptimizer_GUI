@@ -1,0 +1,40 @@
+settings put global adaptive_battery_management_enabled 0
+settings put global private_dns_mode hostname
+settings put global private_dns_specifier dns.quad9.net
+settings put global wifi_scan_always_enabled 0
+
+settings put secure clipboard_show_access_notifications 1
+settings put secure screensaver_enabled 0
+settings put secure screensaver_activate_on_sleep 0
+settings put secure screensaver_activate_on_dock 0
+settings put secure adaptive_sleep 0
+settings put secure wake_gesture_enabled 0
+settings put secure fingerprint_effect 0
+
+settings put system sound_effects_enabled 0
+settings put system aod_mode 0
+settings put system charging_info_always 0
+settings put system master_motion 0
+settings put system motion_engine 0
+settings put system air_motion_engine 0
+settings put system air_motion_wake_up 0
+settings put system motion_merged_mute_pause 0
+settings put system motion_overturn 0
+settings put system super_fast_charging 0
+settings put system surface_palm_touch 0
+settings put system mcf_continuity 0
+settings put system mcf_continuity_permission_denied 1
+settings put system mcf_permission_denied 1
+settings put system intelligent_sleep_mode 0
+
+dumpsys deviceidle whitelist +com.android.internal.systemui.navbar.gestural
+dumpsys deviceidle whitelist +com.android.systemui
+dumpsys deviceidle whitelist +com.samsung.internal.systemui.navbar.sec_gestural_no_hint
+dumpsys deviceidle whitelist +com.samsung.internal.systemui.navbar.gestural_no_hint
+dumpsys deviceidle whitelist +com.samsung.internal.systemui.navbar.sec_gestural
+dumpsys deviceidle whitelist +com.samsung.android.honeyboard
+dumpsys deviceidle whitelist +com.android.internal.systemui.navbar.gestural_wide_back
+dumpsys deviceidle whitelist +com.android.internal.systemui.navbar.gestural_narrow_back
+dumpsys deviceidle whitelist +com.android.internal.systemui.navbar.gestural_extra_wide_back
+dumpsys deviceidle whitelist +com.sec.android.app.launcher
+dumpsys deviceidle whitelist +com.samsung.android.biometrics.app.setting

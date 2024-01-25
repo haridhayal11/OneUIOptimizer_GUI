@@ -1,0 +1,4 @@
+com.sec.android.emergencylauncher
+com.sec.android.emergencymode.service
+com.sec.android.provider.emergencymode
+com.android.emergency

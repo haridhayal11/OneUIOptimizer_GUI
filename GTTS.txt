@@ -1,0 +1,5 @@
+com.android.hotwordenrollment.okgoogle
+com.android.hotwordenrollment.xgoogle
+com.google.android.tts
+com.google.android.apps.googleassistant
+com.google.audio.hearing.visualization.accessibility.scribe

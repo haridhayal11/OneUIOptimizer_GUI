@@ -1,0 +1,6 @@
+com.microsoft.appmanager
+com.microsoft.office.officehubrow
+com.microsoft.office.outlook
+com.microsoft.skydrive
+com.swiftkey.swiftkeyconfigurator
+com.touchtype.swiftkey

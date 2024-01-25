@@ -1,0 +1,4 @@
+com.facebook.appmanager
+com.facebook.katana
+com.facebook.services
+com.facebook.system
