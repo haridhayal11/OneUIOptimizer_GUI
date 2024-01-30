@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Optimizer"
         mc:Ignorable="d"
         Background="#181c24"        
-        Title="OneUI Optimizer" Height="450" Width="800">
+        Title="OneUI Optimizer GUI" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
@@ -14,7 +14,7 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <TextBlock Margin="10,10,0,183" HorizontalAlignment="Left" Width="260" RenderTransformOrigin="0.53,-0.095">
-            <Run FontSize="24" Foreground="#FF54E277">OneUI Optimizer v3.0</Run><LineBreak/>
+            <Run FontSize="24" Foreground="#FF54E277">OneUI Optimizer GUI v3.0</Run><LineBreak/>
             <Run FontSize="16" Foreground="#FFFFF185"> by Haridhayal </Run><LineBreak/>          
             <Run Foreground="White"> Less Trash = Better Battery Life and Performance </Run>
         </TextBlock>
