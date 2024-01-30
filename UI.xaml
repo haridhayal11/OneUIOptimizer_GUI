@@ -9,9 +9,10 @@
         Title="OneUI Optimizer GUI" Height="Auto" Width="Auto">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />            
         </Grid.ColumnDefinitions>
         
         <!-- Main Title -->
@@ -22,38 +23,45 @@
         </TextBlock>
 
         <!-- Samsung Apps -->
-        <StackPanel Grid.Column="0" Margin="10" VerticalAlignment="Top">
+        <StackPanel Grid.Column="0" Margin="10,80,10,10" VerticalAlignment="Top">
             <Label Content="Samsung Apps" FontSize="16" Foreground="White"/>
             <CheckBox Name="CameraAR" Content="Camera AR Apps" Margin="5,0" Foreground="White" />
-            <!-- Add more CheckBoxes here -->
+            <CheckBox Name="Dex" Content="Dex" Margin="5,0" Foreground="White"/>
+            <CheckBox Name="DigitalWellbeing" Content="Digital Wellbeing" Margin="5,0" Foreground="White"/>
+            <CheckBox Name="EmergencyMode" Content="Emergency Mode" Margin="5,0" Foreground="White"/>
+            <CheckBox Name="GalaxyStore" Content="Galaxy Store" Margin="5,0" Foreground="White" />
+            <CheckBox Name="Knox" Content="Knox Apps" Margin="5,0" Foreground="White" />
+            <CheckBox Name="Bixby" Content="Bixby" Margin="5,0" Foreground="White" />
+            <CheckBox Name="Routines" Content="Samsung Routines" Margin="5,0" Foreground="White" />
+            <CheckBox Name="SCloud" Content="Samsung Cloud" Margin="5,0" Foreground="White" />
+            <CheckBox Name="Themes" Content="Theme Store" Margin="5,0" Foreground="White" />
+            <CheckBox Name="SWeather" Content="Samsung Weather" Margin="5,0" Foreground="White" />
+            <CheckBox Name="SOther" Content="Other Apps (Highly Recommended)" Margin="5,0" Foreground="White" />
         </StackPanel>
 
         <!-- Google Apps -->
-        <StackPanel Grid.Column="1" Margin="10" VerticalAlignment="Top">
+        <StackPanel Grid.Column="1" Margin="10" VerticalAlignment="Top" >
             <Label Content="Google Apps" FontSize="16" Foreground="White"/>
             <CheckBox Name="GSync" Content="Sync Adapters (Contacts,Calendar)" Margin="5,0" Foreground="White"/>
-            <!-- Add more CheckBoxes here -->
+            <CheckBox Name="GMessages" Content="Messages" Margin="5,0" Foreground="White"/>
+            <CheckBox Name="GTTS" Content="Text to Speech,Google Assistant" Margin="5,0" Foreground="White"/>
+            <CheckBox Name="GLocation" Content="Location History" Margin="5,0" Foreground="White"/>
+            <CheckBox Name="Getc" Content="Other Bloat (Feedback,Photos,Youtube,etc)" Margin="5,0" Foreground="White"/>
         </StackPanel>
 
         <!-- Third Party Apps -->
-        <StackPanel Grid.Column="2" Margin="10" VerticalAlignment="Top">
+        <StackPanel Grid.Column="1" Margin="10" VerticalAlignment="Center">
             <Label Content="Third Party Apps" FontSize="16" Foreground="White"/>
             <CheckBox Name="Facebook" Content="Facebook" Margin="5,0" Foreground="White"/>
-            <!-- Add more CheckBoxes here -->
+            <CheckBox Name="Microsoft" Content="Microsoft" Margin="5,0" Foreground="White"/>
+            <CheckBox Name="Netflix" Content="Netflix" Margin="5,0" Foreground="White"/>
         </StackPanel>
 
         <!-- Tweaks -->
-        <StackPanel Grid.Column="0" Grid.ColumnSpan="3" Margin="10" VerticalAlignment="Top">
+        <StackPanel Grid.Column="2" Margin="10">
             <Label Content="Tweaks" FontSize="16" Foreground="White"/>
             <CheckBox Name="Tweaks" Content="Settings to improve battery life (No Restore)" Margin="5,0" Foreground="White"/>
         </StackPanel>
 
-        <!-- Buttons -->
-        <StackPanel Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" Margin="10" VerticalAlignment="Top">
-            <Button Name="apply" Background="AliceBlue" Content="Debloat" Margin="5" />
-            <Button Name="restore" Background="AliceBlue" Content="Restore" Margin="5" />
-            <Button Name="selall" Background="AliceBlue" Content="Select All" Margin="5" />
-            <Button Name="deselall" Background="AliceBlue" Content="Deselect All" Margin="5" />
-        </StackPanel>
     </Grid>
 </Window>
