@@ -59,9 +59,9 @@ $xaml.SelectNodes("//*[@Name]") | ForEach-Object { Set-Variable -Name "WPF$($_.N
 }
 
 cd $HOME
-Remove-Item -Force -Recurse Temp_OneUIOptimizer_Haridhayal
-mkdir -p Temp_OneUIOptimizer
-cd Temp_OneUIOptimizer
+Remove-Item -Force -Recurse Temp_OneUIOptimizer_test
+mkdir -p Temp_OneUIOptimizer_test
+cd Temp_OneUIOptimizer_test
 
 irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/test/Bixby.txt" -OutFile Bixby.txt
 irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/test/CameraAR.txt" -OutFile CameraAR.txt
