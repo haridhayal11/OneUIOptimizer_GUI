@@ -20,7 +20,7 @@ If ( Test-Path $HOME\ADB\adb.exe ) {
             Exit
         }
 
-$inputXML = (new-object Net.WebClient).DownloadString("https://codeberg.org/kitchenblaster/dump/raw/branch/main/UI.xaml")
+$inputXML = (new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/UI.xaml")
 
 $inputXML = $inputXML -replace 'mc:Ignorable="d"', '' -replace "x:N", 'N' -replace '^<Win.*', '<Window'
 [void][System.Reflection.Assembly]::LoadWithPartialName('presentationframework')
@@ -63,27 +63,27 @@ Remove-Item -Force -Recurse Temp_OneUIOptimizer_Haridhayal
 mkdir -p Temp_OneUIOptimizer
 cd Temp_OneUIOptimizer
 
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/Bixby.txt" -OutFile Bixby.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/CameraAR.txt" -OutFile CameraAR.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/Dex.txt" -OutFile Dex.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/DigitalWellbeing.txt" -OutFile DigitalWellbeing.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/EmergencyMode.txt" -OutFile EmergencyMode.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/Facebook.txt" -OutFile Facebook.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/GLocation.txt" -OutFile GLocation.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/GMessages.txt" -OutFile GMessages.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/GSync.txt" -OutFile GSync.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/GTTS.txt" -OutFile GTTS.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/GalaxyStore.txt" -OutFile GalaxyStore.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/Getc.txt" -OutFile Getc.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/Knox.txt" -OutFile Knox.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/Microsoft.txt" -OutFile Microsoft.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/Netflix.txt" -OutFile Netflix.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/Routines.txt" -OutFile Routines.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/SCloud.txt" -OutFile SCloud.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/SOther.txt" -OutFile SOther.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/SWeather.txt" -OutFile SWeather.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/Themes.txt" -OutFile Themes.txt
-irm "https://codeberg.org/kitchenblaster/dump/raw/branch/main/Tweaks.txt" -OutFile Tweaks.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/Bixby.txt" -OutFile Bixby.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/CameraAR.txt" -OutFile CameraAR.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/Dex.txt" -OutFile Dex.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/DigitalWellbeing.txt" -OutFile DigitalWellbeing.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/EmergencyMode.txt" -OutFile EmergencyMode.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/Facebook.txt" -OutFile Facebook.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/GLocation.txt" -OutFile GLocation.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/GMessages.txt" -OutFile GMessages.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/GSync.txt" -OutFile GSync.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/GTTS.txt" -OutFile GTTS.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/GalaxyStore.txt" -OutFile GalaxyStore.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/Getc.txt" -OutFile Getc.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/Knox.txt" -OutFile Knox.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/Microsoft.txt" -OutFile Microsoft.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/Netflix.txt" -OutFile Netflix.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/Routines.txt" -OutFile Routines.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/SCloud.txt" -OutFile SCloud.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/SOther.txt" -OutFile SOther.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/SWeather.txt" -OutFile SWeather.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/Themes.txt" -OutFile Themes.txt
+irm "https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/Tweaks.txt" -OutFile Tweaks.txt
 
 
 clear
