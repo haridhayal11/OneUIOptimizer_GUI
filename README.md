@@ -8,6 +8,7 @@
 - Removed apps can be restored.
 - Based on the legacy cli version [here](https://github.com/haridhayal11/OneUIOptimizer)
 
+![Screenshot](https://raw.githubusercontent.com/haridhayal11/OneUIOptimizer_GUI/main/Screenshot.png)
 
 ## Instructions
 
